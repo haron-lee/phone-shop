@@ -1,0 +1,108 @@
+/* ----- display ----- */
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-b {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.t-algin {
+  text-align: center;
+}
+
+/* ----- margin padding width height ----- */
+.m-auto {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w {
+  max-width: 155rem;
+}
+
+.h-inherit {
+  height: inherit;
+}
+
+/* ----- position ----- */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* ----- colors ----- */
+.color {
+  color: rgb(85, 85, 85);
+}
+
+.color-w {
+  color: white;
+}
+
+.color1 {
+  color: #e3fdfd;
+}
+
+.color2 {
+  color: #cbf1f5;
+}
+
+.color3 {
+  color: #a6e3e9;
+}
+
+.color4 {
+  color: #71c9ce;
+}
+
+.bg-color1 {
+  background-color: #e3fdfd;
+}
+
+.bg-color2 {
+  background-color: #cbf1f5;
+}
+
+.bg-color3 {
+  background-color: #a6e3e9;
+}
+
+.bg-color4 {
+  background-color: #71c9ce;
+}
+
+/* ----- font ----- */
+
+.font-w {
+  font-weight: 600;
+}
+
+/* ----- box ----- */
+
+.box-shadow {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1), 0 2px 4px -2px rgb(0 0 0/0.1);
+}

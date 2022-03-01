@@ -1,0 +1,23 @@
+#nav-container {
+  position: fixed;
+  top: 0;
+  height: 8rem;
+}
+
+#nav {
+  font-size: 1.6rem;
+}
+
+#nav-bar {
+  width: 33%;
+}
+
+#in-bar {
+  width: 13%;
+}
+
+#sign-in {
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
