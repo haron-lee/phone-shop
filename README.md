@@ -1,6 +1,6 @@
 # Phone shop
 
-## About
+**About**
 
 This website is my first motivation to start developing. It's a
 mobile phone sales site.
