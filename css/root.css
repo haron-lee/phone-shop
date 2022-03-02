@@ -1,0 +1,24 @@
+:root {
+  /* --- font weight--- */
+  --font-6: 600;
+  --font-b: bold;
+
+  /* --- font size --- */
+  --basic: 1.6rem;
+  --biggest: 8rem;
+  --big: 4rem;
+  --xl: 3.2rem;
+  --l: 2.4rem;
+  --m: 1.8rem;
+  --s: 1rem;
+
+  /* --- padding --- */
+  --p-btn: 1rem;
+
+  /* --- color --- */
+
+  --color1: #e3fdfd;
+  --color2: #cbf1f5;
+  --color3: #a6e3e9;
+  --color4: #71c9ce;
+}

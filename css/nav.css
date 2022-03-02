@@ -1,23 +1,39 @@
-#nav-container {
+#nav-header {
   position: fixed;
   top: 0;
   height: 8rem;
+  background-color: white;
 }
 
 #nav {
   font-size: 1.6rem;
+  z-index: 100;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  gap: 1em;
 }
 
 #nav-bar {
   width: 33%;
 }
 
+#logo {
+  margin-left: auto;
+}
+
 #in-bar {
-  width: 13%;
+  width: 17%;
+  margin-right: auto;
 }
 
 #sign-in {
   width: 10rem;
   padding: 1rem;
   border-radius: 10px;
+  background-color: var(--color4);
+}
+
+#sign-in a {
+  color: white;
 }

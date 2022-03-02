@@ -1,0 +1,31 @@
+#main-visual_container {
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+#main-description {
+  height: 30rem;
+}
+
+#main-description_best {
+  color: var(--color3);
+}
+
+.main-description_l {
+  font-size: var(--l);
+  font-style: italic;
+  text-shadow: 1px 1px 1px #acacac;
+}
+
+#main-description_big {
+  font-size: var(--biggest);
+  font-weight: var(--font-b);
+}
+
+#iphone13 {
+  position: relative;
+  z-index: -1;
+  width: 50rem;
+  height: 50rem;
+  transform: rotate(30deg);
+}
