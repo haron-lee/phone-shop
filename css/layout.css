@@ -1,6 +1,7 @@
+/* main visual */
+
 #main-visual_container {
-  margin-left: 30rem;
-  margin-right: 30rem;
+  width: 120rem;
 }
 
 #main-description {
@@ -28,4 +29,14 @@
   width: 50rem;
   height: 50rem;
   transform: rotate(30deg);
+}
+
+/* article products section */
+
+.products {
+  padding: 4rem 0;
+}
+
+.wrap {
+  width: 120rem;
 }

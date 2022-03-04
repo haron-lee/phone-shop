@@ -8,7 +8,7 @@
     <title>Phone shop</title>
 </head>
 <body class="color">
-    <div id="content">
+    <main id="content">
         <header id="nav-header" class="relative w-full">
             <nav id="nav-container" class="h-inherit">
                 <div id="nav" class="relative flex align-center h-inherit">
@@ -21,15 +21,15 @@
                                 <path d="M7.60342 8.68094C6.04135 7.11882 3.50869 7.11879 1.94657 8.68086C0.384447 10.2429 0.38441 12.7756 1.94648 14.3377L7.60342 8.68094ZM15.5627 22.2974L18.3911 25.1258C19.9532 23.5637 19.9532 21.0311 18.3912 19.469L15.5627 22.2974ZM1.95949 30.2438C0.397389 31.8059 0.397389 34.3385 1.95949 35.9006C3.52158 37.4627 6.05424 37.4627 7.61634 35.9006L1.95949 30.2438ZM42.5751 14.3589C44.1372 12.7968 44.1372 10.2642 42.5751 8.70205C41.013 7.13996 38.4803 7.13996 36.9182 8.70205L42.5751 14.3589ZM28.9717 22.3054L26.1433 19.477C25.3931 20.2272 24.9717 21.2446 24.9717 22.3055C24.9717 23.3663 25.3931 24.3837 26.1433 25.1339L28.9717 22.3054ZM36.9312 35.9216C38.4933 37.4837 41.026 37.4837 42.588 35.9216C44.1501 34.3595 44.1501 31.8268 42.588 30.2647L36.9312 35.9216ZM14.3377 1.94653C12.7756 0.384436 10.243 0.384436 8.68088 1.94653C7.11879 3.50863 7.11879 6.04129 8.68088 7.60339L14.3377 1.94653ZM22.2972 15.5629L19.4688 18.3913C21.0309 19.9534 23.5635 19.9534 25.1256 18.3913L22.2972 15.5629ZM35.9006 7.61633C37.4627 6.05423 37.4627 3.52157 35.9006 1.95948C34.3385 0.397378 31.8058 0.397378 30.2437 1.95948L35.9006 7.61633ZM22.3053 28.9719L25.1337 26.1435C23.5716 24.5814 21.0389 24.5814 19.4768 26.1435L22.3053 28.9719ZM8.70204 36.9183C7.13995 38.4804 7.13995 41.013 8.70204 42.5751C10.2641 44.1372 12.7968 44.1372 14.3589 42.5751L8.70204 36.9183ZM30.2648 42.5881C31.8269 44.1502 34.3595 44.1502 35.9216 42.5881C37.4837 41.026 37.4837 38.4933 35.9216 36.9312L30.2648 42.5881ZM1.94648 14.3377L12.7342 25.1258L18.3912 19.469L7.60342 8.68094L1.94648 14.3377ZM12.7343 19.469L1.95949 30.2438L7.61634 35.9006L18.3911 25.1258L12.7343 19.469ZM36.9182 8.70205L26.1433 19.477L31.8001 25.1339L42.5751 14.3589L36.9182 8.70205ZM26.1433 25.1339L36.9312 35.9216L42.588 30.2647L31.8001 19.477L26.1433 25.1339ZM8.68088 7.60339L19.4688 18.3913L25.1256 12.7344L14.3377 1.94653L8.68088 7.60339ZM25.1256 18.3913L35.9006 7.61633L30.2437 1.95948L19.4688 12.7344L25.1256 18.3913ZM19.4768 26.1435L8.70204 36.9183L14.3589 42.5751L25.1337 31.8004L19.4768 26.1435ZM35.9216 36.9312L25.1337 26.1435L19.4769 31.8004L30.2648 42.5881L35.9216 36.9312Z" fill="#71C9CE"/>
                                 </svg>                                                          
                     </div>
-                    <div id="nav-bar" class="flex h-inherit">
-                        <a href="/" class="p-1 flex align-center color font-w"><span>Best</span></a>
-                        <a href="/" class="p-1 flex align-center color font-w"><span>Galaxy</span></a>
-                        <a href="/" class="p-1 flex align-center color font-w"><span>Iphone</span></a>
-                        <a href="/" class="p-1 flex align-center color font-w"><span>Hot deal</span></a>
-                        <a href="/" class="p-1 flex align-center color font-w"><span>FAQ</span></a>
+                    <div id="nav-bar" class="flex h-inherit align-center">
+                        <a href="/" class="nav-menu p-1 flex align-center color font-w"><span>Best</span></a>
+                        <a href="/" class="nav-menu p-1 flex align-center color font-w"><span>Galaxy</span></a>
+                        <a href="/" class="nav-menu p-1 flex align-center color font-w"><span>Iphone</span></a>
+                        <a href="/" class="nav-menu p-1 flex align-center color font-w"><span>Hot deal</span></a>
+                        <a href="/" class="nav-menu p-1 flex align-center color font-w"><span>FAQ</span></a>
                     </div>
                     <div id="in-bar" class="h-inherit flex align-center">
-                        <a class="flex align-center color font-w" href="/"><span>Log in</span></a>
+                        <a id="log-in" class="flex align-center color font-w" href="/"><span>Log in</span></a>
                         <div id="sign-in" class="flex center align-center font-w box-shadow">
                             <a class="flex align-center" href="/"><span class="color-w">Sign in</span></a>
                         </div>
@@ -37,8 +37,8 @@
                 </div>
             </nav>
         </header>
-        <main id="main-visual" class="w-full">
-            <div id="main-visual_container" class="flex space-b align-center"> 
+        <div id="main-visual" class="w-full">
+            <div class="wrap m-auto flex space-b align-center"> 
                 <div id="main-description" class="flex flex-direct space-a">
                     <div id="main-description_best" class="main-description_l"><span>The best model of the month</span></div>
                     <div id="main-description_big"><h1>이게 바로 프로다</h1></div>
@@ -48,14 +48,46 @@
                         </span>
                     </div>
                 </div>
-                <div>
+                <div id="iphone13-content">
                     <img id="iphone13" src="img/iphone13.png" alt="iphone13">
                 </div>
             </div>
-        </main>
-        <article></article>
+        </div>
+        <article class="products">
+            <div class="wrap m-auto">
+                <p class="products_title">
+                    아이폰 BEST 
+                </p>
+                <ol class="products_phone">
+                    <li>
+                        <a href="/">
+                            <div class="phoneImg"></div>
+                            <div class="phoneTxt"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <div class="phoneImg"></div>
+                            <div class="phoneTxt"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <div class="phoneImg"></div>
+                            <div class="phoneTxt"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <div class="phoneImg"></div>
+                            <div class="phoneTxt"></div>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </article>
         <article></article>
         <footer></footer>
-    </div>
+    </main>
 </body>
 </html>
