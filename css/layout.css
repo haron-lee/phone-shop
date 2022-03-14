@@ -1,7 +1,6 @@
 /* main visual */
-
-#main-visual_container {
-  width: 120rem;
+#main-visual {
+  margin-bottom: 15rem;
 }
 
 #main-description {
@@ -15,7 +14,6 @@
 .main-description_l {
   font-size: var(--l);
   font-style: italic;
-  text-shadow: 1px 1px 1px #acacac;
 }
 
 #main-description_big {
@@ -23,20 +21,42 @@
   font-weight: var(--font-b);
 }
 
-#iphone13 {
+#iphone {
   position: relative;
   z-index: -1;
-  width: 50rem;
-  height: 50rem;
+  width: 45rem;
+  height: 45rem;
   transform: rotate(30deg);
 }
 
 /* article products section */
-
-.products {
-  padding: 4rem 0;
-}
-
 .wrap {
   width: 120rem;
+}
+
+.products_title {
+  font-size: var(--l);
+}
+
+.products_wrap {
+  width: 25rem;
+  height: 30rem;
+  padding: 2rem 1rem;
+  background-color: white;
+}
+
+#iphone13mini {
+  width: 10rem;
+}
+
+#iphone13 {
+  width: 12rem;
+}
+
+#iphone13pro {
+  width: 14rem;
+}
+
+#iphone13promax {
+  width: 16rem;
 }
