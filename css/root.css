@@ -6,11 +6,12 @@
   /* --- font size --- */
   --basic: 1.6rem;
   --biggest: 8rem;
-  --big: 4rem;
+  --big: 4.8rem;
   --xl: 3.2rem;
-  --l: 2.4rem;
-  --m: 1.8rem;
-  --s: 1rem;
+  --l: 2.8rem;
+  --m: 2.4rem;
+  --s: 1.8rem;
+  --xs: 1rem;
 
   /* --- padding --- */
   --p-btn: 1rem;
@@ -21,4 +22,6 @@
   --color2: #cbf1f5;
   --color3: #a6e3e9;
   --color4: #71c9ce;
+  --txt: rgb(85, 85, 85);
+  --light-txt: #808085;
 }

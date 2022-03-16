@@ -8,6 +8,10 @@
     <title>Phone shop</title>
 </head>
 <body class="color">
+    <div class="main-visual_bg">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
     <main id="content">
         <header id="nav-header" class="relative w-full">
             <nav id="nav-container" class="h-inherit">
@@ -37,15 +41,15 @@
                 </div>
             </nav>
         </header>
-        <div id="main-visual" class="w-full">
+        <div id="main-visual" class="w-full relative">
+
             <div class="wrap m-auto flex space-b align-center"> 
                 <div id="main-description" class="flex flex-direct space-a">
                     <div id="main-description_best" class="main-description_l"><span>The best model of the month</span></div>
                     <div id="main-description_big"><h1>이게 바로 프로다</h1></div>
                     <div class="main-description_l">
-                        <span>
-                            현재 가장 많은 인기를 누리고 있는 아이폰13을 만나보세요
-                        </span>
+                        <p>현재 가장 많은 인기를 누리고 있는,</p>
+                        <p>아이폰 13을 가장 먼저 만나보세요.</p>
                     </div>
                 </div>
                 <div id="iphone13-content">
@@ -55,21 +59,20 @@
         </div>
         <article class="products">
             <div class="wrap m-auto">
-                <div class="products_title flex center align-center">
-                    <p class="color font-w">
-                        아이폰 BEST ✨
-                    </p>
+                <div class="products_title flex center align-center flex-direct">
+                    <p class="color font-w">아이폰 BEST ✨</p>
+                    <p class="products_title_sub">새롭게 추가된 알파그린 색상을 만나보세요.</p>
                 </div>
                 <ol class="products_phone flex space-b align-center">
                     <li>
                         <div class="products_wrap">
                             <a href="/">
                                 <div class="phoneImg">
-                                    <img id="iphone13mini" src="/img/13-mini.png" alt="13mini" srcset="">
+                                    <img src="/img/13-mini.png" alt="13mini" srcset="">
                                 </div>
                                 <div class="phoneTxt">
                                     <h2>Iphone mini 13</h2>
-                                    <h3>128GB 256GB 512GB </h3>
+                                    <h3>128GB 256GB 512GB</h3>
                                     <span>950,000원</span>
                                 </div>
                             </a>
@@ -79,7 +82,7 @@
                         <div class="products_wrap">
                             <a href="/">
                                 <div class="phoneImg">
-                                    <img id="iphone13" src="/img/13.png" alt="13" srcset="">
+                                    <img src="/img/13.png" alt="13" srcset="">
                                 </div>
                                 <div class="phoneTxt">
                                     <h2>Iphone 13</h2>
@@ -93,11 +96,11 @@
                         <div class="products_wrap">
                             <a href="/">
                                 <div class="phoneImg">
-                                    <img id="iphone13pro" src="/img/13-pro.png" alt="13pro" srcset="">
+                                    <img src="/img/13-pro.png" alt="13pro" srcset="">
                                 </div>
                                 <div class="phoneTxt">
                                     <h2>Iphone 13pro</h2>
-                                    <h3>128GB 256GB 512GB 1T </h3>
+                                    <h3>128GB 256GB 512GB 1TB </h3>
                                     <span>1,350,000원</span>
                                 </div>
                             </a>
@@ -107,11 +110,11 @@
                         <div class="products_wrap">
                             <a href="/">
                                 <div class="phoneImg">
-                                    <img id="iphone13promax" src="/img/13-pro-max.png" alt="13promax" srcset="">
+                                    <img src="/img/13-pro-max.png" alt="13promax" srcset="">
                                 </div>
                                 <div class="phoneTxt">
                                     <h2>Iphone 13pro max</h2>
-                                    <h3>128GB 256GB 512GB 1T </h3>
+                                    <h3>128GB 256GB 512GB 1TB </h3>
                                     <span>1,490,000원</span>
                                 </div>
                             </a>
@@ -120,7 +123,72 @@
                 </ol>
             </div>
         </article>
-        <article></article>
+        <article class="products">
+            <div class="wrap m-auto">
+                <div class="products_title flex center align-center flex-direct">
+                    <p class="color font-w">삼성 BEST 👍</p>
+                    <p class="products_title_sub">모던함을 추가한 갤럭시 S22을 만나보세요</p>
+                </div>
+                <ol class="products_phone flex space-b align-center">
+                    <li>
+                        <div class="products_wrap">
+                            <a href="/">
+                                <div class="phoneImg">
+                                    <img src="/img/s22.png" alt="s22" srcset="">
+                                </div>
+                                <div class="phoneTxt">
+                                    <h2>Galaxy s22</h2>
+                                    <h3>256GB 512GB 1TB</h3>
+                                    <span>999,900원</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products_wrap">
+                            <a href="/">
+                                <div class="phoneImg">
+                                    <img src="/img/s22p.png" alt="s22p" srcset="">
+                                </div>
+                                <div class="phoneTxt">
+                                    <h2>Galaxy S22+</h2>
+                                    <h3>256GB 512GB 1TB</h3>
+                                    <span>1,199,000원</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products_wrap">
+                            <a href="/">
+                                <div class="phoneImg">
+                                    <img src="/img/s22u.png" alt="s22u" srcset="">
+                                </div>
+                                <div class="phoneTxt">
+                                    <h2>Galaxy S22Ultra</h2>
+                                    <h3>256GB 512GB 1TB </h3>
+                                    <span>1,350,000원</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products_wrap">
+                            <a href="/">
+                                <div class="phoneImg">
+                                    <img src="/img/zflip.png" alt="z-flip3" srcset="">
+                                </div>
+                                <div class="phoneTxt">
+                                    <h2>Galaxy Z Flip3</h2>
+                                    <h3>only 256GB</h3>
+                                    <span>1,254,000원</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </article>
         <footer></footer>
     </main>
 </body>

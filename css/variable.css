@@ -64,7 +64,11 @@
 
 /* ----- colors ----- */
 .color {
-  color: rgb(85, 85, 85);
+  color: rgb(65, 65, 65);
+}
+
+.color-light {
+  color: #808085;
 }
 
 .color-w {

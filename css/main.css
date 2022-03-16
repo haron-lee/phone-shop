@@ -1,0 +1,76 @@
+/* article products section */
+.wrap {
+  width: 115rem;
+  margin-bottom: 15rem;
+}
+
+.products_title {
+  font-size: var(--l);
+  margin-bottom: 3rem;
+}
+
+.products_title_sub {
+  font-size: var(--s);
+  color: var(--light-txt);
+}
+
+.products_wrap {
+  width: 25rem;
+  height: 30rem;
+  padding: 2rem 3rem;
+  background: #fff;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  border-radius: 10px;
+}
+
+.products_wrap a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneImg,
+.phoneTxt {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneImg {
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneTxt {
+  align-items: flex-start;
+}
+
+.phoneImg img {
+  width: 11rem;
+}
+
+.phoneTxt h2 {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: var(--basic);
+}
+
+.phoneTxt h2,
+.phoneTxt h3,
+.phoneTxt span {
+  margin-bottom: 5px;
+  color: var(--txt);
+}
+
+.phoneTxt span {
+  font-weight: bold;
+  font-size: var(--s);
+  color: red;
+}
