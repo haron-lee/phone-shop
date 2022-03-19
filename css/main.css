@@ -75,11 +75,15 @@
   color: red;
 }
 
-/* article free products section */
+/* article free products, promotion section */
 .free_bg {
   width: 100%;
-  height: 60rem;
+  height: 120rem;
   background: var(--color5);
+}
+
+.free_box {
+  margin-bottom: 11rem;
 }
 
 .free_title {
@@ -101,4 +105,12 @@
 
 #a32 {
   width: 15rem;
+}
+
+.promotion_bold p {
+  font-size: var(--biggest);
+  font-weight: bold;
+  color: var(--color5);
+  -webkit-text-stroke: 2px #fff;
+  line-height: 15rem;
 }
