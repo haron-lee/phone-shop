@@ -23,6 +23,7 @@
   height: 198px;
   animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   transform: translate3d(0, 0, 0);
+  z-index: 1;
 }
 
 .wave:nth-of-type(2) {
@@ -52,6 +53,7 @@
 }
 
 /* main visual */
+
 #main-visual {
   margin-bottom: 18rem;
 }
@@ -66,12 +68,14 @@
 
 .main-description_l {
   font-size: var(--l);
+  z-index: -1;
 }
 
 #main-description_big {
   font-size: var(--biggest);
   font-weight: var(--font-b);
   color: rgb(36, 36, 36);
+  z-index: -1;
 }
 
 #iphone {
